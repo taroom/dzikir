@@ -1,0 +1,119 @@
+{
+  "slug": "sholat-wajib",
+  "title": "Sholat Wajib",
+  "category": "Ibadah Harian",
+  "description": "Panel ini merangkum lima waktu dan dzikir setelah salam. Cocok sebagai dashboard ibadah inti harian.",
+  "focus": "Menjaga ritme lima waktu",
+  "recommendedTime": "Sepanjang hari mengikuti waktu sholat",
+  "steps": [
+    {
+      "title": "Jaga tepat waktu",
+      "body": "Gunakan dashboard ini untuk menandai sholat yang sudah dikerjakan, bukan sekadar target hafalan."
+    },
+    {
+      "title": "Dzikir setelah salam",
+      "body": "Tambahkan tasbih, tahmid, takbir, dan istighfar secara bertahap sesuai kebiasaan Anda."
+    },
+    {
+      "title": "Evaluasi sore atau malam",
+      "body": "Lihat progres total hari itu agar mudah mengetahui bagian mana yang paling sering terlewat."
+    }
+  ],
+  "counters": [
+    {
+      "id": "lima-waktu",
+      "label": "Sholat Lima Waktu",
+      "goal": 5,
+      "step": 1,
+      "unit": "waktu",
+      "note": "Naikkan satu per satu setelah setiap sholat selesai.",
+      "arabic": "حَافِظُوا عَلَى الصَّلَوَاتِ وَالصَّلَاةِ الْوُسْطَىٰ",
+      "transliteration": "Haafizhu 'alas shalawati was shalatil wusthaa",
+      "meaning": "Jagalah semua sholat(mu), dan sholat Wustha (QS Al-Baqarah: 238)"
+    },
+    {
+      "id": "istighfar-3",
+      "label": "Istighfar Setelah Salam",
+      "goal": 3,
+      "step": 1,
+      "unit": "kali",
+      "note": "Ringkas, praktis, dan mudah dipertahankan konsistensinya.",
+      "arabic": "أَسْتَغْفِرُ اللَّهَ",
+      "transliteration": "Astaghfirullah",
+      "meaning": "Aku memohon ampun kepada Allah"
+    },
+    {
+      "id": "doa-1",
+      "label": "Doa Setelah Istighfar",
+      "goal": 3,
+      "step": 1,
+      "unit": "kali",
+      "note": "Target tambahan untuk memperbanyak dzikir setelah sholat, bisa disesuaikan dengan waktu luang.",
+      "arabic": "اللَّهُمَّ أَنْتَ السَّلَامُ وَمِنْكَ السَّلَامُ، تَبَارَكْتَ ذَا الجَلَالِ وَالإِكْرَامِ",
+      "transliteration": "Allahumma anta as-salaamu wa minka as-salaamu, tabaarakta dha al-jalaali wal-ikraam",
+      "meaning": "Ya Allah Engkau-lah as salam, dan keselamatan hanya dari-Mu, Maha Suci Engkau wahai Dzat yang memiliki semua keagungan dan kemulian"
+    },
+    {
+        "arabic": "لا إلَهَ إلَّا اللَّهُ وحْدَهُ لا شَرِيكَ له، اللَّهُمَّ لا مَانِعَ لِما أعْطَيْتَ، ولَا مُعْطِيَ لِما مَنَعْتَ، ولَا يَنْفَعُ ذَا الجَدِّ مِنْكَ الجَدُّ",
+        "transliteration": "Laa ilaaha illallah wahdahu laa syariika lah, Allahumma laa maani'a lima a'tayta, wa laa mu'tiya lima mana'ta, wa laa yanfa'u dzal jaddu minka al-jaddu",
+        "meaning": "tiada ilah yang berhak disembah selain Allah semata, tidak ada sekutu bagi-Nya. Segala pujian dan kerajaan adalah milik Allah. Allah Maha Kuasa atas segala sesuatu. Ya Allah, tidak ada yang mencegah apa yang Engkau berikan dan tidak ada yang memberi apa yang Engkau cegah. Tidak berguna kekayaan dan kemuliaan (bagi pemiliknya). Dari Engkau-lah semua kekayaan dan kemuliaan",
+        "id": "doa-2",
+        "label": "Doa Setelah Istighfar",
+        "goal": 1,
+        "step": 1
+    },
+    {
+        "arabic": "لا إلَهَ إلَّا اللَّهُ وحْدَهُ لا شَرِيكَ له، اللَّلا إلَهَ إلَّا اللَّهُ وَحْدَهُ لا شَرِيكَ له، له المُلْكُ وَلَهُ الحَمْدُ وَهو علَى كُلِّ شيءٍ قَدِيرٌ، لا حَوْلَ وَلَا قُوَّةَ إلَّا باللَّهِ، لا إلَهَ إلَّا اللَّهُ، وَلَا نَعْبُدُ إلَّا إيَّاهُ، له النِّعْمَةُ وَلَهُ الفَضْلُ، وَلَهُ الثَّنَاءُ الحَسَنُ، لا إلَهَ إلَّا اللَّهُ مُخْلِصِينَ له الدِّينَ ولو كَرِهَ الكَافِرُونَ وَقالَ: كانَ رَسولُ اللهِ صَلَّى اللَّهُ عليه وسلَّمَ يُهَلِّلُ بهِنَّ دُبُرَ كُلِّ صَلَاةٍ",
+        "transliteration": "laa ilaha illalloohu wahdahu laa syarika lahu. Lahul mulku wa lahul hamdu wa huwa ‘alaa kulli syai-in qodiir. Laa haula wa laa quwwata illa billaah. Laa ilaha illallooh wa laa na’budu illa iyyaah. Lahun ni’matu wa lahul fadhlu wa lahuts tsanaa-ul hasanu. Laa ilaha illallooh mukhlishiina lahud diin wa lau karihal kaafiruun",
+        "meaning": "Tiada ilah yang berhak disembah selain Allah semata, tidak ada sekutu bagi-Nya. Segala pujian dan kerajaan adalah milik Allah. Allah Maha Kuasa atas segala sesuatu. Tidak ada daya dan upaya kecuali dengan pertolongan Allah. Tiada ilah yang berhak disembah kecuali Allah. Kami tidak menyembah kecuali kepada-Nya. Semua nikmat, anugerah dan pujian yang baik adalah milik Allah. Tiada ilah yang berhak disembah kecuali Allah, dengan memurnikan ibadah hanya kepadaNya, sekalipun orang-orang kafir tidak menyukainya",
+        "id": "doa-3",
+        "label": "Doa Setelah Istighfar",
+        "goal": 1,
+        "step": 1
+    },
+    {
+      "id": "tasbih-33",
+      "label": "Tasbih 33",
+      "goal": 33,
+      "step": 1,
+      "unit": "kali",
+      "note": "Tasbih 33 kali. reset jika sudah mencapai 33 untuk memudahkan konsistensi tanpa harus menghitung terus menerus.",
+      "arabic": "سُبْحَانَ اللَّهِ",
+      "transliteration": "Subhaanallah",
+      "meaning": "Maha Suci Allah"
+    },
+    {
+      "id": "tahmid-33",
+      "label": "Tahmid 33",
+      "goal": 33,
+      "step": 1,
+      "unit": "kali",
+      "note": "Tahmid 33 kali. reset jika sudah mencapai 33 untuk memudahkan konsistensi tanpa harus menghitung terus menerus.",
+      "arabic": "الْحَمْدُ لِلَّهِ",
+      "transliteration": "Alhamdulillah",
+      "meaning": "Segala puji bagi Allah"
+    },
+    {
+      "id": "takbir-33",
+      "label": "Takbir 33",
+      "goal": 33,
+      "step": 1,
+      "unit": "kali",
+      "note": "Akumulasi dari lima waktu bila Anda rutin membaca takbir 33 kali.",
+      "arabic": "اللَّهُ أَكْبَرُ",
+      "transliteration": "Allahu Akbar",
+      "meaning": "Allah Maha Besar"
+    },
+    {
+      "id": "tahlil-100",
+      "label": "Tahlil 100",
+      "goal": 100,
+      "step": 1,
+      "unit": "kali",
+      "note": "Akumulasi dari lima waktu bila Anda rutin membaca tahlil 1 kali.",
+      "arabic": "لَلَا إِلَهَ إِلَّا اللهُ ",
+      "transliteration": "Laa ilaha illallah wahda, laa syarika lah. Lahul mulku wa lahul hamdu wa huwa ‘ala kulli syai-in qodiir",
+      "meaning": "Tidak ada ilah yang berhak disembah kecuali Allah semata. Tidak ada sekutu bagiNya. Semua kerajaan dan pujaan adalah milik Allah. Dia-lah Yang Mahakuasa atas segala sesuatu"
+    }    
+  ]
+}

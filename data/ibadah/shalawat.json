@@ -1,0 +1,57 @@
+{
+  "slug": "shalawat",
+  "title": "Shalawat",
+  "category": "Dzikir",
+  "description": "Panel shalawat dengan beberapa target fleksibel. Gunakan untuk rutinitas harian atau penutup majelis kecil pribadi.",
+  "focus": "Menghidupkan cinta kepada Nabi",
+  "recommendedTime": "Setelah sholat, perjalanan, atau malam Jumat",
+  "steps": [
+    {
+      "title": "Tentukan target harian",
+      "body": "Pilih angka yang realistis dan nyaman diulang tanpa beban berlebihan."
+    },
+    {
+      "title": "Pakai jeda mikro",
+      "body": "Sisipkan shalawat di sela perpindahan aktivitas agar konsisten walau jadwal padat."
+    },
+    {
+      "title": "Naikkan target bila stabil",
+      "body": "Setelah beberapa hari konsisten, gunakan tombol selesai untuk menutup target dengan cepat."
+    }
+  ],
+  "counters": [
+    {
+      "id": "harian-100",
+      "label": "Shalawat Harian",
+      "goal": 100,
+      "step": 10,
+      "unit": "kali",
+      "note": "Cocok sebagai target utama sehari-hari.",
+      "arabic": "اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ كَمَا صَلَّيْتَ عَلَى إِبْرَاهِيمَ وَعَلَى آلِ إِبْرَاهِيمَ إِنَّكَ حَمِيدٌ مَجِيدٌ",
+      "transliteration": "Allahumma shalli 'alaa Muhammadin wa 'alaa aali Muhammadin, kamaa shallayta 'alaa Ibrahiima wa 'alaa aali Ibrahiim, innaka hamiidum majiid",
+      "meaning": "Ya Allah, limpahkanlah shalawat kepada Nabi Muhammad dan keluarganya, sebagaimana Engkau limpahkan shalawat kepada Ibrahim dan keluarganya. Sesungguhnya Engkau Maha Terpuji lagi Maha Mulia."
+    },
+    {
+      "id": "malam-jumat",
+      "label": "Malam Jumat",
+      "goal": 200,
+      "step": 20,
+      "unit": "kali",
+      "note": "Target lebih panjang untuk malam Jumat atau majelis pribadi.",
+      "arabic": "اللَّهُمَّ صَلِّ صَلَاةً كَامِلَةً وَسَلِّمْ سَلَامًا تَامًّا عَلَى سَيِّدِنَا مُحَمَّدٍ الَّذِي تَنْحَلُّ بِهِ الْعُقَدُ",
+      "transliteration": "Allahumma shalli shalatan kamilatan wa sallim salaman tamman 'alaa sayyidina Muhammadin alladzi tanhallu bihil 'uqad",
+      "meaning": "Ya Allah, limpahkanlah shalawat yang sempurna dan salam yang lengkap atas junjungan kami Nabi Muhammad, yang dengan beliau segala kesulitan terurai"
+    },
+    {
+      "id": "setelah-sholat",
+      "label": "Setelah Sholat",
+      "goal": 25,
+      "step": 5,
+      "unit": "kali",
+      "note": "Tambahan singkat yang mudah ditanamkan setelah salam.",
+      "arabic": "اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ",
+      "transliteration": "Allahumma shalli 'alaa Muhammad",
+      "meaning": "Ya Allah, limpahkanlah shalawat atas Nabi Muhammad"
+    }
+  ]
+}
