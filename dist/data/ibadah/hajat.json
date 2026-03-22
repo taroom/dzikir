@@ -1,0 +1,57 @@
+{
+  "slug": "hajat",
+  "title": "Sholat Hajat",
+  "category": "Sholat Sunnah",
+  "description": "Halaman ini disusun untuk kebutuhan permohonan khusus. Fokus utamanya adalah kekhusyukan dan kontinuitas doa.",
+  "focus": "Permohonan dan keteguhan ikhtiar",
+  "recommendedTime": "Malam hari atau setelah sholat wajib",
+  "steps": [
+    {
+      "title": "Tegaskan hajat",
+      "body": "Pastikan permohonan yang dibawa jelas, baik, dan tidak bertentangan dengan syariat."
+    },
+    {
+      "title": "Sholat dua rakaat",
+      "body": "Kerjakan dengan tenang, lalu perbanyak doa setelah salam pada momen hati sedang lunak."
+    },
+    {
+      "title": "Ulangi dzikir utama",
+      "body": "Gunakan target kecil agar mudah konsisten di beberapa hari jika perlu."
+    }
+  ],
+  "counters": [
+    {
+      "id": "rakaat",
+      "label": "Rakaat Hajat",
+      "goal": 2,
+      "step": 2,
+      "unit": "rakaat",
+      "note": "Counter cepat untuk menandai pelaksanaan sholat inti.",
+      "arabic": "نَوَيْتُ أُصَلِّيَ سُنَّةَ الْحَاجَةِ رَكْعَتَيْنِ لِلهِ تَعَالَى",
+      "transliteration": "Nawaytu ushalliya sunnatal hajati rak'ataini lillahi ta'ala",
+      "meaning": "Saya niat sholat sunnah hajat dua rakaat karena Allah ta'ala"
+    },
+    {
+      "id": "ya-fattah",
+      "label": "Ya Fattah",
+      "goal": 71,
+      "step": 1,
+      "unit": "kali",
+      "note": "Sering dipakai sebagai wirid pembuka kemudahan.",
+      "arabic": "يَا فَتَّاحُ",
+      "transliteration": "Yaa Fattaah",
+      "meaning": "Wahai Yang Maha Membuka (Pemberi kemudahan dan jalan keluar)"
+    },
+    {
+      "id": "doa-pribadi",
+      "label": "Sesi Doa Pribadi",
+      "goal": 3,
+      "step": 1,
+      "unit": "sesi",
+      "note": "Hitung sesi doa yang benar-benar fokus, bukan sekadar lama waktunya.",
+      "arabic": "رَبِّ اشْرَحْ لِي صَدْرِي وَيَسِّرْ لِي أَمْرِي",
+      "transliteration": "Rabbisyrah liy shadri wa yassir liy amri",
+      "meaning": "Ya Tuhanku, lapangkanlah dadaku dan mudahkanlah urusanku"
+    }
+  ]
+}

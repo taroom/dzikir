@@ -1,0 +1,57 @@
+{
+  "slug": "istighfar",
+  "title": "Istighfar Harian",
+  "category": "Dzikir",
+  "description": "Halaman sederhana untuk target istighfar yang bisa dilanjutkan sepanjang hari. Cocok untuk jeda kerja, perjalanan, atau waktu senggang.",
+  "focus": "Taubat dan pembersihan hati",
+  "recommendedTime": "Pagi, sore, dan sela aktivitas",
+  "steps": [
+    {
+      "title": "Buat target bertahap",
+      "body": "Mulai dari angka yang mudah konsisten lalu tingkatkan setelah terasa stabil."
+    },
+    {
+      "title": "Gabungkan dengan momen tunggu",
+      "body": "Manfaatkan waktu sebelum rapat, antre, atau perjalanan untuk menambah hitungan."
+    },
+    {
+      "title": "Cek progres malam hari",
+      "body": "Reset bila ingin mulai nol esok hari, atau biarkan tersimpan untuk target mingguan."
+    }
+  ],
+  "counters": [
+    {
+      "id": "istighfar-100",
+      "label": "Istighfar 100",
+      "goal": 100,
+      "step": 10,
+      "unit": "kali",
+      "note": "Target dasar harian yang paling mudah dipakai sebagai baseline.",
+      "arabic": "أَسْتَغْفِرُ اللَّهَ الْعَظِيمَ الَّذِي لَا إِلَهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ وَأَتُوبُ إِلَيْهِ",
+      "transliteration": "Astaghfirullahal 'adzim, alladziy laa ilaaha illaa huwal hayyul qayyum wa atuubu ilaih",
+      "meaning": "Aku memohon ampun kepada Allah Yang Maha Agung, tiada Tuhan selain Dia, Yang Maha Hidup dan Terus-Menerus Mengurus, dan aku bertaubat kepada-Nya"
+    },
+    {
+      "id": "sayyidul-istighfar",
+      "label": "Sayyidul Istighfar",
+      "goal": 2,
+      "step": 1,
+      "unit": "kali",
+      "note": "Cukup pagi dan petang, agar tidak hilang dari rutinitas.",
+      "arabic": "اللَّهُمَّ أَنْتَ رَبِّي لَا إِلَهَ إِلَّا أَنْتَ خَلَقْتَنِي وَأَنَا عَبْدُكَ وَأَنَا عَلَى عَهْدِكَ وَوَعْدِكَ مَا اسْتَطَعْتُ أَعُوذُ بِكَ مِنْ شَرِّ مَا صَنَعْتُ أَبُوءُ لَكَ بِنِعْمَتِكَ عَلَيَّ وَأَبُوءُ بِذَنْبِي فَاغْفِرْ لِي فَإِنَّهُ لَا يَغْفِرُ الذُّنُوبَ إِلَّا أَنْتَ",
+      "transliteration": "Allahumma anta rabbi laa ilaaha illaa anta, khalaqtani wa ana 'abduka, wa ana 'ala 'ahdika wa wa'dika mastatha'tu, a'uudzu bika min syarri maa shana'tu, abuu-u laka bini'matika 'alayya, wa abuu-u bidzanbi, faghfir lii fa innahu laa yaghfirudz dzunuuba illaa anta",
+      "meaning": "Ya Allah, Engkau Tuhanku. Tiada ilah selain Engkau. Engkau ciptakan aku dan aku hamba-Mu. Aku di atas perjanjian-Mu semampuku. Aku berlindung dari keburukan yang kuperbuat. Aku akui nikmat-Mu dan aku akui dosaku. Maka ampunilah aku, sesungguhnya tiada yang mengampuni dosa kecuali Engkau."
+    },
+    {
+      "id": "istighfar-500",
+      "label": "Target Panjang",
+      "goal": 500,
+      "step": 25,
+      "unit": "kali",
+      "note": "Untuk hari-hari saat Anda ingin memperbanyak istighfar lebih intens.",
+      "arabic": "أَسْتَغْفِرُ اللَّهَ",
+      "transliteration": "Astaghfirullah",
+      "meaning": "Aku memohon ampun kepada Allah"
+    }
+  ]
+}
