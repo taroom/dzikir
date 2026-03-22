@@ -1,0 +1,57 @@
+{
+  "slug": "tahajud",
+  "title": "Tahajud",
+  "category": "Sholat Sunnah",
+  "description": "Panel ini cocok untuk ibadah malam: niat, alur ringkas, lalu counter dzikir setelah sholat supaya fokus tetap terjaga.",
+  "focus": "Munajat dan penguatan hati",
+  "recommendedTime": "Sepertiga malam terakhir",
+  "steps": [
+    {
+      "title": "Persiapan",
+      "body": "Bangun dengan tenang, berwudhu, lalu siapkan tempat sholat yang minim distraksi."
+    },
+    {
+      "title": "Sholat Tahajud",
+      "body": "Kerjakan dua rakaat salam, bisa diulang sesuai kemampuan. Setelahnya lanjutkan doa pribadi."
+    },
+    {
+      "title": "Dzikir Penutup",
+      "body": "Gunakan counter untuk menjaga ritme istighfar, tasbih, dan shalawat setelah sholat."
+    }
+  ],
+  "counters": [
+    {
+      "id": "rakaat",
+      "label": "Rakaat Tahajud",
+      "goal": 8,
+      "step": 2,
+      "unit": "rakaat",
+      "note": "Target umum yang mudah dipantau tanpa mengunci ibadah terlalu kaku.",
+      "arabic": "نَوَيْتُ أُصَلِّيَ سُنَّةَ التَّهَجُّدِ رَكْعَتَيْنِ لِلهِ تَعَالَى",
+      "transliteration": "Nawaytu ushalliya sunnatan tahajjudi rak'ataini lillahi ta'ala",
+      "meaning": "Saya niat sholat sunnah tahajud dua rakaat karena Allah ta'ala"
+    },
+    {
+      "id": "istighfar",
+      "label": "Istighfar",
+      "goal": 100,
+      "step": 10,
+      "unit": "kali",
+      "note": "Bisa dibaca perlahan setelah salam atau setelah doa panjang.",
+      "arabic": "أَسْتَغْفِرُ اللَّهَ الْعَظِيمَ الَّذِي لَا إِلَهَ إِلَّا هُوَ الْحَيُّ الْقَيُّومُ وَأَتُوبُ إِلَيْهِ",
+      "transliteration": "Astaghfirullahal 'adzim alladziy la ilaha illa huwal hayyul qayyum wa atubu ilaih",
+      "meaning": "Aku memohon ampun kepada Allah Yang Maha Agung, yang tiada Tuhan selain Dia, Yang Maha Hidup lagi Terus-Menerus Mengurus, dan aku bertaubat kepada-Nya"
+    },
+    {
+      "id": "shalawat",
+      "label": "Shalawat",
+      "goal": 50,
+      "step": 10,
+      "unit": "kali",
+      "note": "Tambahkan sebagai penutup untuk memperhalus ritme ibadah malam.",
+      "arabic": "اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ",
+      "transliteration": "Allahumma shalli 'ala Muhammadin wa 'ala ali Muhammad",
+      "meaning": "Ya Allah, limpahkan shalawat atas Nabi Muhammad dan keluarga beliau"
+    }
+  ]
+}

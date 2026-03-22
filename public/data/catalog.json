@@ -1,0 +1,44 @@
+[
+  {
+    "slug": "tahajud",
+    "title": "Tahajud",
+    "category": "Sholat Sunnah",
+    "tagline": "Bangun malam, fokus munajat, lalu lanjutkan dzikir penutup dengan counter yang tersimpan.",
+    "tags": ["qiyamul lail", "malam", "munajat"]
+  },
+  {
+    "slug": "hajat",
+    "title": "Sholat Hajat",
+    "category": "Sholat Sunnah",
+    "tagline": "Daftar ibadah untuk saat Anda ingin meminta kemudahan, kelapangan, dan pertolongan.",
+    "tags": ["permohonan", "ikhtiar", "doa khusus"]
+  },
+  {
+    "slug": "sholat-wajib",
+    "title": "Sholat Wajib",
+    "category": "Ibadah Harian",
+    "tagline": "Ringkas lima waktu, dzikir setelah salam, dan progres wirid harian dalam satu panel.",
+    "tags": ["subuh", "dzuhur", "ashar", "maghrib", "isya"]
+  },
+  {
+    "slug": "dhuha",
+    "title": "Dhuha",
+    "category": "Sholat Sunnah",
+    "tagline": "Ritme ringan untuk pagi hari dengan dzikir syukur dan pembuka rezeki.",
+    "tags": ["pagi", "rezeki", "syukur"]
+  },
+  {
+    "slug": "istighfar",
+    "title": "Istighfar Harian",
+    "category": "Dzikir",
+    "tagline": "Target istighfar bertahap agar mudah dijaga konsisten sepanjang hari.",
+    "tags": ["ampunan", "taubat", "pagi-sore"]
+  },
+  {
+    "slug": "shalawat",
+    "title": "Shalawat",
+    "category": "Dzikir",
+    "tagline": "Counter shalawat dengan beberapa target yang bisa dilanjutkan kapan saja.",
+    "tags": ["cinta nabi", "harian", "wirid"]
+  }
+]

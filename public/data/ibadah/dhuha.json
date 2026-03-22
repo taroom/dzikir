@@ -1,0 +1,57 @@
+{
+  "slug": "dhuha",
+  "title": "Dhuha",
+  "category": "Sholat Sunnah",
+  "description": "Rangkaian ringan untuk pagi hari, difokuskan pada syukur, optimisme, dan pembuka aktivitas.",
+  "focus": "Syukur dan adab memulai hari",
+  "recommendedTime": "Setelah matahari naik hingga menjelang zawal",
+  "steps": [
+    {
+      "title": "Awali dengan niat tenang",
+      "body": "Hadirkan tujuan untuk bersyukur dan menyerahkan urusan rezeki kepada Allah."
+    },
+    {
+      "title": "Sholat dua atau empat rakaat",
+      "body": "Mulai dari target yang realistis agar ibadah mudah bertahan menjadi rutinitas."
+    },
+    {
+      "title": "Lengkapi dengan wirid pagi",
+      "body": "Counter ini membantu menghubungkan dhuha dengan dzikir pagi tanpa perlu pindah aplikasi."
+    }
+  ],
+  "counters": [
+    {
+      "id": "rakaat",
+      "label": "Rakaat Dhuha",
+      "goal": 4,
+      "step": 2,
+      "unit": "rakaat",
+      "note": "Target tengah yang cocok untuk kebanyakan rutinitas kerja atau kuliah.",
+      "arabic": "نَوَيْتُ أُصَلِّيَ سُنَّةَ الضُّحَى رَكْعَتَيْنِ لِلهِ تَعَالَى",
+      "transliteration": "Nawaytu ushalliya sunnatad dhuha rak'ataini lillahi ta'ala",
+      "meaning": "Saya niat sholat sunnah dhuha dua rakaat karena Allah ta'ala"
+    },
+    {
+      "id": "tasbih",
+      "label": "Tasbih Syukur",
+      "goal": 33,
+      "step": 11,
+      "unit": "kali",
+      "note": "Bisa dibaca sesudah salam atau saat transisi ke aktivitas utama.",
+      "arabic": "سُبْحَانَ اللَّهِ وَبِحَمْدِهِ",
+      "transliteration": "Subhaanallaahi wa bihamdih",
+      "meaning": "Maha Suci Allah dan segala puji bagi-Nya"
+    },
+    {
+      "id": "doa-rezeki",
+      "label": "Doa Dhuha",
+      "goal": 7,
+      "step": 1,
+      "unit": "kali",
+      "note": "Menjaga fokus permohonan tanpa perlu mengandalkan hafalan panjang sekaligus.",
+      "arabic": "اللَّهُمَّ إِنَّ الضُّحَاءَ ضُحَاؤُكَ وَالْبَهَاءَ بَهَاؤُكَ وَالْجَمَالَ جَمَالُكَ وَالْقُوَّةَ قُوَّتُكَ وَالْقُدْرَةَ قُدْرَتُكَ",
+      "transliteration": "Allahumma innad dhuha-a dhuhaa-uka, wal bahaa-a bahaa-uka, wal jamaala jamaaluka, wal quwwata quwwatuka, wal qudrata qudratuka",
+      "meaning": "Ya Allah, sesungguhnya waktu dhuha adalah dhuha-Mu, keagungan adalah keagungan-Mu, keindahan adalah keindahan-Mu, kekuatan adalah kekuatan-Mu, dan kekuasaan adalah kekuasaan-Mu"
+    }
+  ]
+}
