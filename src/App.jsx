@@ -1,5 +1,5 @@
 import { startTransition, useDeferredValue, useEffect, useMemo, useState } from "react";
-import ramadanBg from "../piyush_10_march_15.jpg";
+import ramadanBg from "../static/piyush_10_march_15.jpg";
 
 const STORAGE_KEY = "dzikir-progress-v1";
 

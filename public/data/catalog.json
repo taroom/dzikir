@@ -40,5 +40,12 @@
     "category": "Dzikir",
     "tagline": "Counter shalawat dengan beberapa target yang bisa dilanjutkan kapan saja.",
     "tags": ["cinta nabi", "harian", "wirid"]
+  },
+  {
+    "slug": "after-shubuh",
+    "title": "Dzikir Setelah Subuh",
+    "category": "Wirid Pagi",
+    "tagline": "Waqiah, Ayat Dinar, doa kecukupan, sedekah subuh, dan empat dzikir agung masing-masing 41x.",
+    "tags": ["subuh", "pagi", "rezeki", "doa yunus", "wirid harian"]
   }
 ]

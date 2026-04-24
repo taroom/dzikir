@@ -1,0 +1,120 @@
+{
+  "slug": "after-shubuh",
+  "title": "Dzikir Setelah Subuh",
+  "category": "Wirid Pagi",
+  "description": "Rangkaian amalan dan dzikir setelah sholat subuh: membaca Waqiah, Ayat Dinar, doa kemudahan rezeki, sedekah subuh, serta empat dzikir yang dianjurkan saat menghadapi kesulitan, kesedihan, atau sebagai wirid harian untuk memohon kemudahan urusan dan ampunan.",
+  "focus": "Pembuka berkah pagi, perlindungan rezeki, dan taubat",
+  "recommendedTime": "Setelah sholat subuh hingga matahari terbit",
+  "steps": [
+    {
+      "title": "Membaca Surah Al-Waqiah",
+      "body": "Baca Surah Al-Waqiah 1 kali sebagai pembuka amalan pagi. Ulama menganjurkannya sebagai pelindung dari kefakiran."
+    },
+    {
+      "title": "Ayat Dinar (At-Thalaq: 2-3)",
+      "body": "Baca 11 kali sebagai wasilah pembuka pintu rezeki dari arah yang tidak disangka-sangka."
+    },
+    {
+      "title": "Doa Kecukupan dari Keharaman",
+      "body": "Baca 41 kali: memohon kecukupan dari yang halal dan kekayaan hati dari selain Allah."
+    },
+    {
+      "title": "Sedekah Subuh",
+      "body": "Tunaikan sedekah subuh meski sedikit. Rasulullah ﷺ menyebutkan para malaikat mendoakan yang bersedekah di pagi hari."
+    },
+    {
+      "title": "Dzikir Empat Kalimat (41x)",
+      "body": "Empat dzikir agung dibaca masing-masing 41 kali: Ya Dzal Jalali Wal Ikram, Ya Hayyu Ya Qayyum, Birohmatika Astaghits, dan Doa Nabi Yunus. Sangat dianjurkan saat menghadapi kesulitan atau kesedihan."
+    }
+  ],
+  "counters": [
+    {
+      "id": "waqiah",
+      "label": "Surah Al-Waqiah",
+      "goal": 1,
+      "step": 1,
+      "unit": "kali",
+      "note": "Dibaca sekali setelah subuh sebagai amalan pembuka hari.",
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ ﴿ وَاقِعَة ﴾",
+      "transliteration": "Bismillahir rahmanir rahim — (Surah Al-Waqiah)",
+      "meaning": "Surah Al-Waqiah: Surah ke-56 dalam Al-Qur'an. Membacanya setiap hari dipercaya sebagai pelindung dari kefakiran."
+    },
+    {
+      "id": "ayat-dinar",
+      "label": "Ayat Dinar (At-Thalaq: 2-3)",
+      "goal": 11,
+      "step": 1,
+      "unit": "kali",
+      "note": "Dibaca 11 kali. Berisi janji Allah tentang jalan keluar dan rezeki dari arah yang tidak terduga.",
+      "arabic": "وَمَن يَتَّقِ اللَّهَ يَجْعَل لَّهُۥ مَخْرَجًا ۝ وَيَرْزُقْهُ مِنْ حَيْثُ لَا يَحْتَسِبُ ۚ وَمَن يَتَوَكَّلْ عَلَى اللَّهِ فَهُوَ حَسْبُهُۥٓ",
+      "transliteration": "Wa may yattaqillaha yaj'al lahu makhrajan. Wa yarzuqhu min haytsu laa yahtasib. Wa may yatawakkal 'alallahi fahuwa hasbuh",
+      "meaning": "Barangsiapa bertakwa kepada Allah, niscaya Dia akan membukakan jalan keluar baginya, dan Dia memberi rezeki dari arah yang tidak disangka-sangka. Dan barangsiapa bertawakkal kepada Allah, niscaya Allah akan mencukupkan (keperluan)nya. (QS At-Thalaq: 2-3)"
+    },
+    {
+      "id": "doa-kecukupan",
+      "label": "Doa Kecukupan dari Haram",
+      "goal": 41,
+      "step": 1,
+      "unit": "kali",
+      "note": "Dibaca 41 kali. Memohon kecukupan dari yang halal dan kekayaan hati dari selain Allah.",
+      "arabic": "اللَّهُمَّ اكْفِنِي بِحَلَالِكَ عَنْ حَرَامِكَ وَأَغْنِنِي بِفَضْلِكَ عَمَّنْ سِوَاكَ",
+      "transliteration": "Allahumma-kfinii bi halaalika 'an haroomika wa aghninii bifadhlika 'amman siwaak",
+      "meaning": "Ya Allah, cukupkanlah aku dengan yang halal (dari-Mu) sehingga tidak butuh yang haram, dan kayakanlah aku dengan karunia-Mu sehingga tidak butuh kepada selain-Mu."
+    },
+    {
+      "id": "sedekah-subuh",
+      "label": "Sedekah Subuh",
+      "goal": 1,
+      "step": 1,
+      "unit": "kali",
+      "note": "Tandai setiap kali menunaikan sedekah subuh. Malaikat mendoakan yang bersedekah di pagi hari.",
+      "arabic": "اللَّهُمَّ أَعْطِ مُنفِقًا خَلَفًا",
+      "transliteration": "Allahumma a'thi munfiqan khalafan",
+      "meaning": "Ya Allah, berilah pengganti bagi orang yang berinfak. (Dari doa malaikat setiap pagi — HR. Bukhari & Muslim)"
+    },
+    {
+      "id": "ya-dzal-jalali",
+      "label": "Ya Dzal Jalali Wal Ikram",
+      "goal": 41,
+      "step": 1,
+      "unit": "kali",
+      "note": "Dibaca 41 kali. Dianjurkan saat menghadapi kesulitan atau sebagai wirid harian.",
+      "arabic": "يَا ذَا الْجَلَالِ وَالْإِكْرَامِ",
+      "transliteration": "Yaa Dzal Jalaali Wal Ikraam",
+      "meaning": "Wahai Tuhan yang memiliki Keagungan dan Kemuliaan."
+    },
+    {
+      "id": "ya-hayyu-ya-qayyum",
+      "label": "Ya Hayyu Ya Qayyum",
+      "goal": 41,
+      "step": 1,
+      "unit": "kali",
+      "note": "Dibaca 41 kali. Salah satu nama Allah yang paling agung dalam Al-Qur'an.",
+      "arabic": "يَا حَيُّ يَا قَيُّومُ بِرَحْمَتِكَ أَسْتَغِيثُ",
+      "transliteration": "Yaa Hayyu Yaa Qayyum, Birohmatika Astaghiits",
+      "meaning": "Wahai Zat yang Maha Hidup dan terus-menerus mengurus (makhluk-Nya), dengan rahmat-Mu aku memohon pertolongan."
+    },
+    {
+      "id": "birohmatika",
+      "label": "Birohmatika Astaghits",
+      "goal": 41,
+      "step": 1,
+      "unit": "kali",
+      "note": "Dibaca 41 kali. Kalimat permohonan pertolongan yang sangat dianjurkan saat dalam kesempitan.",
+      "arabic": "بِرَحْمَتِكَ أَسْتَغِيثُ",
+      "transliteration": "Birohmatika Astaghiits",
+      "meaning": "Dengan Rahmat-Mu aku memohon pertolongan."
+    },
+    {
+      "id": "doa-yunus",
+      "label": "Doa Nabi Yunus",
+      "goal": 41,
+      "step": 1,
+      "unit": "kali",
+      "note": "Dibaca 41 kali. Doa Nabi Yunus saat berada dalam perut ikan, terbukti sebagai pembuka kesulitan.",
+      "arabic": "لَّا إِلَٰهَ إِلَّا أَنتَ سُبْحَٰنَكَ إِنِّى كُنتُ مِنَ ٱلظَّٰلِمِينَ",
+      "transliteration": "Laa ilaaha illaa Anta subhaanaka innii kuntu minadzdzoolimiin",
+      "meaning": "Tidak ada Tuhan selain Engkau, Maha Suci Engkau, sesungguhnya aku termasuk orang-orang yang zalim. (QS Al-Anbiya: 87 — Doa Nabi Yunus)"
+    }
+  ]
+}
