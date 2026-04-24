@@ -73,48 +73,15 @@
       "meaning": "Ya Allah, berilah pengganti bagi orang yang berinfak. (Dari doa malaikat setiap pagi — HR. Bukhari & Muslim)"
     },
     {
-      "id": "ya-dzal-jalali",
-      "label": "Ya Dzal Jalali Wal Ikram",
+      "id": "dzikir-empat-kalimat",
+      "label": "Satu Rangkaian Dzikir 4 Kalimat",
       "goal": 41,
       "step": 1,
-      "unit": "kali",
-      "note": "Dibaca 41 kali. Dianjurkan saat menghadapi kesulitan atau sebagai wirid harian.",
-      "arabic": "يَا ذَا الْجَلَالِ وَالْإِكْرَامِ",
-      "transliteration": "Yaa Dzal Jalaali Wal Ikraam",
-      "meaning": "Wahai Tuhan yang memiliki Keagungan dan Kemuliaan."
-    },
-    {
-      "id": "ya-hayyu-ya-qayyum",
-      "label": "Ya Hayyu Ya Qayyum",
-      "goal": 41,
-      "step": 1,
-      "unit": "kali",
-      "note": "Dibaca 41 kali. Salah satu nama Allah yang paling agung dalam Al-Qur'an.",
-      "arabic": "يَا حَيُّ يَا قَيُّومُ بِرَحْمَتِكَ أَسْتَغِيثُ",
-      "transliteration": "Yaa Hayyu Yaa Qayyum, Birohmatika Astaghiits",
-      "meaning": "Wahai Zat yang Maha Hidup dan terus-menerus mengurus (makhluk-Nya), dengan rahmat-Mu aku memohon pertolongan."
-    },
-    {
-      "id": "birohmatika",
-      "label": "Birohmatika Astaghits",
-      "goal": 41,
-      "step": 1,
-      "unit": "kali",
-      "note": "Dibaca 41 kali. Kalimat permohonan pertolongan yang sangat dianjurkan saat dalam kesempitan.",
-      "arabic": "بِرَحْمَتِكَ أَسْتَغِيثُ",
-      "transliteration": "Birohmatika Astaghiits",
-      "meaning": "Dengan Rahmat-Mu aku memohon pertolongan."
-    },
-    {
-      "id": "doa-yunus",
-      "label": "Doa Nabi Yunus",
-      "goal": 41,
-      "step": 1,
-      "unit": "kali",
-      "note": "Dibaca 41 kali. Doa Nabi Yunus saat berada dalam perut ikan, terbukti sebagai pembuka kesulitan.",
-      "arabic": "لَّا إِلَٰهَ إِلَّا أَنتَ سُبْحَٰنَكَ إِنِّى كُنتُ مِنَ ٱلظَّٰلِمِينَ",
-      "transliteration": "Laa ilaaha illaa Anta subhaanaka innii kuntu minadzdzoolimiin",
-      "meaning": "Tidak ada Tuhan selain Engkau, Maha Suci Engkau, sesungguhnya aku termasuk orang-orang yang zalim. (QS Al-Anbiya: 87 — Doa Nabi Yunus)"
+      "unit": "putaran",
+      "note": "Satu putaran berisi 4 kalimat dzikir ini secara berurutan. Ulangi sampai 41 putaran.",
+      "arabic": "يَا ذَا الْجَلَالِ وَالْإِكْرَامِ / يَا حَيُّ يَا قَيُّومُ / بِرَحْمَتِكَ أَسْتَغِيثُ / لَا إِلَٰهَ إِلَّا أَنتَ سُبْحَٰنَكَ إِنِّي كُنتُ مِنَ الظَّالِمِينَ",
+      "transliteration": "Yaa Dzal Jalaali wal Ikraam / Yaa Hayyu Yaa Qayyum / Birohmatika Astaghiits / Laa ilaaha illaa Anta subhaanaka innii kuntu minaz-zhaalimiin",
+      "meaning": "Wahai Tuhan pemilik keagungan dan kemuliaan; Wahai Yang Maha Hidup dan Maha Mengurus; dengan rahmat-Mu aku memohon pertolongan; tidak ada Tuhan selain Engkau, Maha Suci Engkau, sungguh aku termasuk orang-orang yang zalim."
     }
   ]
 }
