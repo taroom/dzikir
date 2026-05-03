@@ -42,6 +42,13 @@
     "tags": ["cinta nabi", "harian", "wirid"]
   },
   {
+    "slug": "every-jumat",
+    "title": "Dzikir Setiap Jumat",
+    "category": "Wirid Jumat",
+    "tagline": "Amalan Jumat berisi Al-Kahfi, Ayat Dinar, doa kecukupan, sedekah, dan sholawat dengan counter progres.",
+    "tags": ["jumat", "al-kahfi", "rezeki", "sholawat"]
+  },
+  {
     "slug": "after-shubuh",
     "title": "Dzikir Setelah Subuh",
     "category": "Wirid Pagi",
