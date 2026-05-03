@@ -31,6 +31,14 @@ function formatProgress(detail, progressMap) {
     return `${totalCurrent}/${totalGoal} tercapai`;
 }
 
+function formatElapsed(totalSeconds) {
+    const hours = String(Math.floor(totalSeconds / 3600)).padStart(2, "0");
+    const minutes = String(Math.floor((totalSeconds % 3600) / 60)).padStart(2, "0");
+    const seconds = String(totalSeconds % 60).padStart(2, "0");
+
+    return `${hours}:${minutes}:${seconds}`;
+}
+
 function App() {
     const [catalogStatus, setCatalogStatus] = useState("loading");
     const [catalog, setCatalog] = useState([]);
@@ -39,6 +47,8 @@ function App() {
     const [detailState, setDetailState] = useState({ status: "idle", data: null, error: "" });
     const [progress, setProgress] = useState(loadProgress);
     const [counterFeedback, setCounterFeedback] = useState(null);
+    const [counterTimers, setCounterTimers] = useState({});
+    const [grandTimer, setGrandTimer] = useState({ elapsedSeconds: 0, running: false });
     const deferredQuery = useDeferredValue(query);
 
     useEffect(() => {
@@ -134,6 +144,68 @@ function App() {
         return () => window.clearTimeout(timer);
     }, [counterFeedback]);
 
+    useEffect(() => {
+        if (detailState.status !== "success") {
+            setCounterTimers({});
+            setGrandTimer({ elapsedSeconds: 0, running: false });
+            return;
+        }
+
+        setCounterTimers((current) => {
+            const next = {};
+            for (const counter of detailState.data.counters) {
+                next[counter.id] = current[counter.id] ?? { elapsedSeconds: 0, running: false };
+            }
+            return next;
+        });
+        setGrandTimer((current) => ({ ...current, running: false }));
+    }, [detailState.status, detailState.data]);
+
+    const allCountersComplete = useMemo(() => {
+        if (detailState.status !== "success") {
+            return false;
+        }
+
+        return detailState.data.counters.every((counter) => {
+            const value = progress[detailState.data.slug]?.[counter.id] ?? 0;
+            return value >= counter.goal;
+        });
+    }, [detailState, progress]);
+
+    useEffect(() => {
+        if (!grandTimer.running && !Object.values(counterTimers).some((timer) => timer.running)) {
+            return undefined;
+        }
+
+        const tick = window.setInterval(() => {
+            setCounterTimers((current) => {
+                const next = {};
+
+                for (const [counterId, timer] of Object.entries(current)) {
+                    next[counterId] = timer.running
+                        ? { ...timer, elapsedSeconds: timer.elapsedSeconds + 1 }
+                        : timer;
+                }
+
+                return next;
+            });
+
+            setGrandTimer((current) => (
+                current.running
+                    ? { ...current, elapsedSeconds: current.elapsedSeconds + 1 }
+                    : current
+            ));
+        }, 1000);
+
+        return () => window.clearInterval(tick);
+    }, [counterTimers, grandTimer.running]);
+
+    useEffect(() => {
+        if (allCountersComplete) {
+            setGrandTimer((current) => ({ ...current, running: false }));
+        }
+    }, [allCountersComplete]);
+
     const filteredCatalog = useMemo(() => {
         const normalizedQuery = deferredQuery.trim().toLowerCase();
 
@@ -198,6 +270,59 @@ function App() {
             message: feedbackLabel(counter, safeValue),
             stamp: Date.now(),
         });
+
+        if (safeValue >= counter.goal) {
+            setCounterTimers((current) => ({
+                ...current,
+                [counter.id]: {
+                    ...(current[counter.id] ?? { elapsedSeconds: 0 }),
+                    running: false,
+                },
+            }));
+        }
+    }
+
+    function startCounterTimer(counterId) {
+        setCounterTimers((current) => ({
+            ...current,
+            [counterId]: {
+                ...(current[counterId] ?? { elapsedSeconds: 0 }),
+                running: true,
+            },
+        }));
+    }
+
+    function pauseCounterTimer(counterId) {
+        setCounterTimers((current) => ({
+            ...current,
+            [counterId]: {
+                ...(current[counterId] ?? { elapsedSeconds: 0 }),
+                running: false,
+            },
+        }));
+    }
+
+    function stopCounterTimer(counterId) {
+        setCounterTimers((current) => ({
+            ...current,
+            [counterId]: {
+                ...(current[counterId] ?? {}),
+                elapsedSeconds: 0,
+                running: false,
+            },
+        }));
+    }
+
+    function startGrandTimer() {
+        setGrandTimer((current) => ({ ...current, running: true }));
+    }
+
+    function pauseGrandTimer() {
+        setGrandTimer((current) => ({ ...current, running: false }));
+    }
+
+    function stopGrandTimer() {
+        setGrandTimer({ elapsedSeconds: 0, running: false });
     }
 
     return (
@@ -362,10 +487,47 @@ function App() {
                                         <h3>Counter dzikir</h3>
                                         <p>Setiap perubahan tersimpan otomatis di perangkat ini.</p>
                                     </div>
+                                    <article className="grand-timer-card">
+                                        <div>
+                                            <span className="eyebrow">Grand Stopwatch</span>
+                                            <p>
+                                                Hitung durasi total sampai semua dzikir selesai.
+                                                {allCountersComplete ? " Semua target sudah tercapai." : ""}
+                                            </p>
+                                            <strong>{formatElapsed(grandTimer.elapsedSeconds)}</strong>
+                                        </div>
+                                        <div className="timer-actions">
+                                            <button
+                                                type="button"
+                                                className="timer-btn"
+                                                onClick={startGrandTimer}
+                                                disabled={grandTimer.running || allCountersComplete}
+                                            >
+                                                Play
+                                            </button>
+                                            <button
+                                                type="button"
+                                                className="timer-btn timer-btn--muted"
+                                                onClick={pauseGrandTimer}
+                                                disabled={!grandTimer.running}
+                                            >
+                                                Pause
+                                            </button>
+                                            <button
+                                                type="button"
+                                                className="timer-btn timer-btn--danger"
+                                                onClick={stopGrandTimer}
+                                                disabled={grandTimer.elapsedSeconds === 0}
+                                            >
+                                                Stop
+                                            </button>
+                                        </div>
+                                    </article>
                                     <div className="counter-list">
                                         {detailState.data.counters.map((counter) => {
                                             const value = progress[detailState.data.slug]?.[counter.id] ?? 0;
                                             const completion = Math.min(100, Math.round((value / counter.goal) * 100));
+                                            const timer = counterTimers[counter.id] ?? { elapsedSeconds: 0, running: false };
 
                                             return (
                                                 <article key={counter.id} className="counter-card">
@@ -377,6 +539,39 @@ function App() {
                                                         <strong>
                                                             {value}/{counter.goal} {counter.unit}
                                                         </strong>
+                                                    </div>
+
+                                                    <div className="counter-timer-row">
+                                                        <div className="counter-timer-readout">
+                                                            <span>Stopwatch dzikir</span>
+                                                            <strong>{formatElapsed(timer.elapsedSeconds)}</strong>
+                                                        </div>
+                                                        <div className="timer-actions">
+                                                            <button
+                                                                type="button"
+                                                                className="timer-btn"
+                                                                onClick={() => startCounterTimer(counter.id)}
+                                                                disabled={timer.running || value >= counter.goal}
+                                                            >
+                                                                Play
+                                                            </button>
+                                                            <button
+                                                                type="button"
+                                                                className="timer-btn timer-btn--muted"
+                                                                onClick={() => pauseCounterTimer(counter.id)}
+                                                                disabled={!timer.running}
+                                                            >
+                                                                Pause
+                                                            </button>
+                                                            <button
+                                                                type="button"
+                                                                className="timer-btn timer-btn--danger"
+                                                                onClick={() => stopCounterTimer(counter.id)}
+                                                                disabled={timer.elapsedSeconds === 0}
+                                                            >
+                                                                Stop
+                                                            </button>
+                                                        </div>
                                                     </div>
 
                                                     {counter.arabic && (

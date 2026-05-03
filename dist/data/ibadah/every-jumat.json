@@ -1,0 +1,54 @@
+{
+  "slug": "every-jumat",
+  "title": "Dzikir Setiap Jumat",
+  "category": "Wirid Jumat",
+  "description": "Rangkaian amalan dan dzikir setiap Jumat: membaca Surah Al-Kahfi, doa kemudahan rezeki, sedekah Jumat, serta sholawat Nabi Muhammad SAW.",
+  "focus": "Pembuka berkah Jumat, perlindungan rezeki, dan taubat",
+  "recommendedTime": "Setelah sholat Jumat hingga matahari terbenam",
+  "steps": [
+    {
+      "title": "Membaca Surah Al-Kahfi",
+      "body": "Baca Surah Al-Kahfi 1 kali sebagai pembuka amalan Jumat. Ulama menganjurkannya sebagai pelindung dari kefakiran."
+    },
+    {
+      "title": "Ayat Dinar (At-Thalaq: 2-3)",
+      "body": "Baca 11 kali sebagai wasilah pembuka pintu rezeki dari arah yang tidak disangka-sangka."
+    },
+    {
+      "title": "Doa Kecukupan dari Keharaman",
+      "body": "Baca 41 kali: memohon kecukupan dari yang halal dan kekayaan hati dari selain Allah."
+    },
+    {
+      "title": "Sedekah Jumat",
+      "body": "Tunaikan sedekah Jumat meski sedikit. Rasulullah ﷺ menyebutkan para malaikat mendoakan yang bersedekah di pagi hari."
+    },
+    {
+      "title": "Sholawat Nabi Muhammad SAW (10x)",
+      "body": "Sholawat Nabi Muhammad SAW dibaca 100 kali. Sangat dianjurkan untuk meningkatkan kecintaan kepada Nabi dan mendapatkan syafaatnya."
+    }
+  ],
+  "counters": [
+    {
+      "id": "kahfi",
+      "label": "Surah Al-Kahfi",
+      "goal": 1,
+      "step": 1,
+      "unit": "kali",
+      "note": "Dibaca sekali setelah sholat Jumat sebagai amalan pembuka hari.",
+      "arabic": "بِسْمِ اللَّهِ الرَّحْمَٰنِ الرَّحِيمِ ﴿ الْكَهْفِ ﴾",
+      "transliteration": "Bismillahir rahmanir rahim — (Surah Al-Kahfi)",
+      "meaning": "Surah Al-Kahfi: Surah ke-18 dalam Al-Qur'an. Membacanya setiap Jumat dipercaya sebagai pelindung dari kefakiran dan cobaan."
+    },
+    {
+      "id": "sholawat-nabi",
+      "label": "Sholawat Nabi Muhammad SAW",
+      "goal": 100,
+      "step": 1,
+      "unit": "putaran",
+      "note": "Satu putaran berisi sholawat ini secara berurutan. Ulangi sampai 100 putaran.",
+      "arabic": "اَللَّهُمَّ صَلِّ وَسَلِّمْ وَبَارِكَ عَلَى سَيِّدِنَا مُحَمَّدٍ الْنَّبِيِّ الْأُمِّيِّ الْحَبِيبِ الْعَالِي الْقَدْرِ الْعَظِيمِ الْجَاهِ وَعَلَى آلِهِ وَصَحْبِهِ وَسَلِّمْ",
+      "transliteration": "Allahumma salli wa sallim wa baarik 'ala sayyidina Muhammadinin nabiyil-ummiyy. al-habibil 'alil qadril 'adzhimil-jah wa 'ala alihi wa sahbihi wa sallim",
+      "meaning": "Ya Allah, limpahkanlah shalawat dan salam serta berkah kepada junjungan kami Nabi Muhammad, yang mulia, yang dicintai, yang tinggi derajatnya, yang agung kemuliaannya, dan kepada keluarga serta para sahabatnya."
+    }
+  ]
+}

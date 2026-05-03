@@ -478,6 +478,89 @@ button {
   margin: 0;
 }
 
+.grand-timer-card,
+.counter-timer-row {
+  border-radius: 18px;
+  border: 1px solid rgba(216, 186, 99, 0.2);
+  background: linear-gradient(
+    180deg,
+    rgba(15, 50, 30, 0.8),
+    rgba(7, 30, 17, 0.8)
+  );
+  padding: 14px;
+}
+
+.grand-timer-card {
+  display: grid;
+  gap: 14px;
+}
+
+.grand-timer-card p {
+  margin: 8px 0;
+}
+
+.grand-timer-card strong,
+.counter-timer-readout strong {
+  display: block;
+  font-size: 1.42rem;
+  letter-spacing: 0.06em;
+  color: var(--gold-soft);
+}
+
+.counter-timer-row {
+  display: grid;
+  gap: 10px;
+}
+
+.counter-timer-readout {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  gap: 12px;
+}
+
+.counter-timer-readout span {
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--muted);
+}
+
+.timer-actions {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+}
+
+.timer-btn {
+  border: 0;
+  border-radius: 12px;
+  padding: 9px 12px;
+  min-width: 72px;
+  font-weight: 700;
+  color: var(--bg-deep);
+  background: linear-gradient(140deg, #efe09f, #dcb85d);
+  transition:
+    transform 160ms ease,
+    filter 160ms ease,
+    opacity 160ms ease;
+}
+
+.timer-btn--muted {
+  background: linear-gradient(140deg, #dbc98e, #bda460);
+}
+
+.timer-btn--danger {
+  background: linear-gradient(140deg, #e3c48d, #c58f48);
+}
+
+.timer-btn:disabled {
+  cursor: not-allowed;
+  opacity: 0.45;
+  transform: none;
+  filter: grayscale(0.24);
+}
+
 .progress-bar {
   width: 100%;
   height: 10px;
@@ -680,6 +763,22 @@ button {
     display: grid;
     grid-template-columns: 1fr auto auto;
     align-items: stretch;
+  }
+
+  .counter-timer-readout {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .timer-actions {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .timer-btn {
+    width: 100%;
+    min-width: 0;
   }
 
   .counter-actions__plus {
