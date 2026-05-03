@@ -493,6 +493,10 @@ button {
 .grand-timer-card {
   display: grid;
   gap: 14px;
+  position: sticky;
+  top: 12px;
+  z-index: 5;
+  backdrop-filter: blur(10px);
 }
 
 .grand-timer-card p {
@@ -510,6 +514,14 @@ button {
 .counter-timer-row {
   display: grid;
   gap: 10px;
+  position: sticky;
+  bottom: 10px;
+  z-index: 3;
+}
+
+.counter-timer-row--running {
+  border-color: rgba(216, 186, 99, 0.36);
+  box-shadow: 0 12px 28px rgba(0, 0, 0, 0.25);
 }
 
 .counter-timer-readout {
@@ -524,6 +536,19 @@ button {
   text-transform: uppercase;
   letter-spacing: 0.12em;
   color: var(--muted);
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.counter-timer-row--running .counter-timer-readout span::before {
+  content: "";
+  width: 8px;
+  height: 8px;
+  border-radius: 999px;
+  background: #9de267;
+  box-shadow: 0 0 0 0 rgba(157, 226, 103, 0.4);
+  animation: timer-pulse 1300ms ease infinite;
 }
 
 .timer-actions {
@@ -559,6 +584,22 @@ button {
   opacity: 0.45;
   transform: none;
   filter: grayscale(0.24);
+}
+
+.timer-btn--icon {
+  min-width: 42px;
+  width: 42px;
+  height: 42px;
+  padding: 0;
+  display: inline-grid;
+  place-items: center;
+  font-size: 1.05rem;
+  line-height: 1;
+}
+
+.grand-timer-card .timer-actions {
+  margin-left: auto;
+  flex-wrap: nowrap;
 }
 
 .progress-bar {
@@ -712,6 +753,23 @@ button {
   }
 }
 
+@keyframes timer-pulse {
+  0% {
+    box-shadow: 0 0 0 0 rgba(157, 226, 103, 0.44);
+    opacity: 1;
+  }
+
+  80% {
+    box-shadow: 0 0 0 8px rgba(157, 226, 103, 0);
+    opacity: 0.65;
+  }
+
+  100% {
+    box-shadow: 0 0 0 0 rgba(157, 226, 103, 0);
+    opacity: 1;
+  }
+}
+
 @media (max-width: 1080px) {
   .hero-panel,
   .content-grid {
@@ -774,6 +832,12 @@ button {
     width: 100%;
     display: grid;
     grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
+  .grand-timer-card .timer-actions {
+    width: auto;
+    display: flex;
+    margin-left: 0;
   }
 
   .timer-btn {

@@ -256,6 +256,13 @@ function App() {
         }
 
         const safeValue = Math.max(0, nextValue);
+        const currentValue = progress[detailState.data.slug]?.[counter.id] ?? 0;
+        const counterTimer = counterTimers[counter.id] ?? { elapsedSeconds: 0, running: false };
+        const shouldAutoStart =
+            safeValue > currentValue
+            && currentValue < counter.goal
+            && !counterTimer.running
+            && counterTimer.elapsedSeconds === 0;
 
         setProgress((current) => ({
             ...current,
@@ -279,6 +286,8 @@ function App() {
                     running: false,
                 },
             }));
+        } else if (shouldAutoStart) {
+            startCounterTimer(counter.id);
         }
     }
 
@@ -499,27 +508,33 @@ function App() {
                                         <div className="timer-actions">
                                             <button
                                                 type="button"
-                                                className="timer-btn"
+                                                className="timer-btn timer-btn--icon"
                                                 onClick={startGrandTimer}
                                                 disabled={grandTimer.running || allCountersComplete}
+                                                aria-label="Play grand stopwatch"
+                                                title="Play"
                                             >
-                                                Play
+                                                &#9654;
                                             </button>
                                             <button
                                                 type="button"
-                                                className="timer-btn timer-btn--muted"
+                                                className="timer-btn timer-btn--muted timer-btn--icon"
                                                 onClick={pauseGrandTimer}
                                                 disabled={!grandTimer.running}
+                                                aria-label="Pause grand stopwatch"
+                                                title="Pause"
                                             >
-                                                Pause
+                                                &#9208;
                                             </button>
                                             <button
                                                 type="button"
-                                                className="timer-btn timer-btn--danger"
+                                                className="timer-btn timer-btn--danger timer-btn--icon"
                                                 onClick={stopGrandTimer}
                                                 disabled={grandTimer.elapsedSeconds === 0}
+                                                aria-label="Stop grand stopwatch"
+                                                title="Stop"
                                             >
-                                                Stop
+                                                &#9632;
                                             </button>
                                         </div>
                                     </article>
@@ -541,7 +556,7 @@ function App() {
                                                         </strong>
                                                     </div>
 
-                                                    <div className="counter-timer-row">
+                                                    <div className={`counter-timer-row ${timer.running ? "counter-timer-row--running" : ""}`}>
                                                         <div className="counter-timer-readout">
                                                             <span>Stopwatch dzikir</span>
                                                             <strong>{formatElapsed(timer.elapsedSeconds)}</strong>
