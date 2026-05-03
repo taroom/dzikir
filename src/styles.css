@@ -537,6 +537,14 @@ button {
   color: var(--gold-soft);
 }
 
+.grand-timer-time {
+  transform-origin: left center;
+}
+
+.grand-timer-time--running {
+  animation: time-tick 1000ms ease-in-out infinite;
+}
+
 .counter-timer-row {
   display: grid;
   gap: 10px;
@@ -793,6 +801,23 @@ button {
   100% {
     box-shadow: 0 0 0 0 rgba(157, 226, 103, 0);
     opacity: 1;
+  }
+}
+
+@keyframes time-tick {
+  0% {
+    transform: scale(1);
+    filter: brightness(1);
+  }
+
+  25% {
+    transform: scale(1.02);
+    filter: brightness(1.08);
+  }
+
+  100% {
+    transform: scale(1);
+    filter: brightness(1);
   }
 }
 

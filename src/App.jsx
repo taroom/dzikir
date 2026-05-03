@@ -512,7 +512,9 @@ function App() {
                                                 Hitung durasi total sampai semua dzikir selesai.
                                                 {allCountersComplete ? " Semua target sudah tercapai." : ""}
                                             </p>
-                                            <strong>{formatElapsed(grandTimer.elapsedSeconds)}</strong>
+                                            <strong className={grandTimer.running ? "grand-timer-time grand-timer-time--running" : "grand-timer-time"}>
+                                                {formatElapsed(grandTimer.elapsedSeconds)}
+                                            </strong>
                                         </div>
                                         <div className="timer-actions">
                                             <button
