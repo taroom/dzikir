@@ -82,6 +82,17 @@
       "arabic": "يَا ذَا الْجَلَالِ وَالْإِكْرَامِ / يَا حَيُّ يَا قَيُّومُ / بِرَحْمَتِكَ أَسْتَغِيثُ / لَا إِلَٰهَ إِلَّا أَنتَ سُبْحَٰنَكَ إِنِّي كُنتُ مِنَ الظَّالِمِينَ",
       "transliteration": "Yaa Dzal Jalaali wal Ikraam / Yaa Hayyu Yaa Qayyum / Birohmatika Astaghiits / Laa ilaaha illaa Anta subhaanaka innii kuntu minaz-zhaalimiin",
       "meaning": "Wahai Tuhan pemilik keagungan dan kemuliaan; Wahai Yang Maha Hidup dan Maha Mengurus; dengan rahmat-Mu aku memohon pertolongan; tidak ada Tuhan selain Engkau, Maha Suci Engkau, sungguh aku termasuk orang-orang yang zalim."
+    },
+    {
+      "id": "sholawat-nabi",
+      "label": "Sholawat Nabi Muhammad SAW",
+      "goal": 10,
+      "step": 1,
+      "unit": "putaran",
+      "note": "Satu putaran berisi sholawat ini secara berurutan. Ulangi sampai 10 putaran.",
+      "arabic": "اَللَّهُمَّ صَلِّ وَسَلِّمْ وَبَارِكَ عَلَى سَيِّدِنَا مُحَمَّدٍ الْنَّبِيِّ الْأُمِّيِّ الْحَبِيبِ الْعَالِي الْقَدْرِ الْعَظِيمِ الْجَاهِ وَعَلَى آلِهِ وَصَحْبِهِ وَسَلِّمْ",
+      "transliteration": "Allahumma salli wa sallim wa baarik 'ala sayyidina Muhammadinin nabiyil-ummiyy. al-habibil 'alil qadril 'adzhimil-jah wa 'ala alihi wa sahbihi wa sallim",
+      "meaning": "Ya Allah, limpahkanlah shalawat dan salam serta berkah kepada junjungan kami Nabi Muhammad, yang mulia, yang dicintai, yang tinggi derajatnya, yang agung kemuliaannya, dan kepada keluarga serta para sahabatnya."
     }
   ]
 }
