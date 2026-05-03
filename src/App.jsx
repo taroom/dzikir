@@ -263,6 +263,11 @@ function App() {
             && currentValue < counter.goal
             && !counterTimer.running
             && counterTimer.elapsedSeconds === 0;
+        const shouldAutoStartGrand =
+            safeValue > currentValue
+            && !grandTimer.running
+            && grandTimer.elapsedSeconds === 0
+            && !allCountersComplete;
 
         setProgress((current) => ({
             ...current,
@@ -288,6 +293,10 @@ function App() {
             }));
         } else if (shouldAutoStart) {
             startCounterTimer(counter.id);
+        }
+
+        if (shouldAutoStartGrand) {
+            startGrandTimer();
         }
     }
 
@@ -496,7 +505,7 @@ function App() {
                                         <h3>Counter dzikir</h3>
                                         <p>Setiap perubahan tersimpan otomatis di perangkat ini.</p>
                                     </div>
-                                    <article className="grand-timer-card">
+                                    <article className={`grand-timer-card ${grandTimer.running ? "grand-timer-card--running" : ""}`}>
                                         <div>
                                             <span className="eyebrow">Grand Stopwatch</span>
                                             <p>
