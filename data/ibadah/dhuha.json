@@ -52,6 +52,28 @@
       "arabic": "اللَّهُمَّ إِنَّ الضُّحَاءَ ضُحَاؤُكَ وَالْبَهَاءَ بَهَاؤُكَ وَالْجَمَالَ جَمَالُكَ وَالْقُوَّةَ قُوَّتُكَ وَالْقُدْرَةَ قُدْرَتُكَ",
       "transliteration": "Allahumma innad dhuha-a dhuhaa-uka, wal bahaa-a bahaa-uka, wal jamaala jamaaluka, wal quwwata quwwatuka, wal qudrata qudratuka",
       "meaning": "Ya Allah, sesungguhnya waktu dhuha adalah dhuha-Mu, keagungan adalah keagungan-Mu, keindahan adalah keindahan-Mu, kekuatan adalah kekuatan-Mu, dan kekuasaan adalah kekuasaan-Mu"
-    }
+    },
+     {
+      "id": "al-insyirah",
+      "label": "Al-Insyirah",
+      "goal": 11,
+      "step": 1,
+      "unit": "kali",
+      "note": "Membaca surat Al-Insyirah sebagai bagian dari dzikir pembuka rezeki yang ringan di pagi hari.",
+      "arabic": "أَلَمْ نَشْرَحْ لكَ صَدْرَكَ وَوَضَعْنَا عَنْكَ وِزْرَكَ الَّذِي أَنْقَضَ ظَهْرَكَ وَرَفَعْنَا لَكَ ذِكْرَكَ فَإِنَّ مَعَ الْعُسْرِ يُسْرًا إِنَّ مَعَ الْعُسْرِ يُسْرًا فَإِذَا فَرَغْتَ فَانْصَبْ وَإِلَى رَبِّكَ فَارْغَبْ",
+      "transliteration": "Alam nasyrah laka sadrak, wa wada'na 'anka wizrak, alladzi anqodza zahrak, wa rafa'na laka dzikrak, fa inna ma'al 'usri yusra, inna ma'al 'usri yusra, fa iza faraghta fansab, wa ila rabbika farghab",
+      "meaning": "Bukankah Kami telah melapangkan untukmu dadamu? Dan Kami telah menghilangkan darimu bebanmu, yang memberatkan punggungmu? Dan Kami tinggikan bagimu sebutanmu? Karena sesungguhnya sesudah kesulitan itu ada kemudahan, sesungguhnya sesudah kesulitan itu ada kemudahan. Maka apabila kamu telah selesai (dari suatu urusan), kerjakanlah dengan sungguh-sungguh (urusan yang lain), dan hanya kepada Tuhanmulah hendaknya kamu berharap."
+     },
+     {
+      "id": "al-kautsar",
+      "label": "Al-Kautsar",
+      "goal": 14,
+      "step": 1,
+      "unit": "kali",
+      "note": "Membaca surat Al-Kautsar sebagai bagian dari dzikir pembuka rezeki yang ringan di pagi hari.",
+      "arabic": "إِنَّا أَعْطَيْنَاكَ الْكَوْثَرَ فَصَلِّ لِرَبِّكَ وَانْحَرْ إِنَّ شَانِئَكَ هُوَ الْأَبْتَرُ",
+      "transliteration": "Innaa a'tainal kautsar, fa sholli li rabbika wanhar, inna shaani'aka huwal abtar",
+      "meaning": "Sesungguhnya Kami telah memberikan kepadamu nikmat yang banyak, maka dirikanlah sholat karena Tuhanmu dan berkurbanlah. Sesungguhnya orang-orang yang membenci kamu dialah yang terputus."
+     }
   ]
 }
