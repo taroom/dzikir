@@ -346,6 +346,25 @@ button {
     filter 160ms ease;
 }
 
+.counter-actions {
+  align-items: center;
+}
+
+.counter-actions__plus {
+  min-height: 54px;
+  padding: 14px 24px;
+  font-size: 1.08rem;
+  font-weight: 700;
+}
+
+.counter-actions__minus {
+  margin-left: auto;
+  padding: 8px 12px;
+  min-height: 38px;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
 .card-action,
 .close-button {
   justify-self: start;
@@ -446,6 +465,8 @@ button {
   padding: 18px;
   display: grid;
   gap: 16px;
+  position: relative;
+  overflow: hidden;
 }
 
 .counter-card__head h4 {
@@ -479,6 +500,23 @@ button {
   border: 1px solid rgba(216, 186, 99, 0.16);
   display: grid;
   gap: 8px;
+  position: relative;
+}
+
+.counter-sticky-badge {
+  position: sticky;
+  bottom: 10px;
+  top: auto;
+  justify-self: end;
+  z-index: 2;
+  border-radius: 999px;
+  padding: 6px 10px;
+  font-size: 0.78rem;
+  font-weight: 700;
+  color: var(--gold-soft);
+  background: rgba(4, 19, 10, 0.9);
+  border: 1px solid rgba(216, 186, 99, 0.34);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.24);
 }
 
 .counter-dzikir__arabic {
@@ -509,6 +547,7 @@ button {
 
 .counter-actions {
   align-items: center;
+  row-gap: 10px;
 }
 
 .counter-actions button {
@@ -516,7 +555,26 @@ button {
 }
 
 .counter-value {
-  margin-left: auto;
+  min-height: 46px;
+}
+
+.counter-feedback {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 4;
+  border-radius: 999px;
+  padding: 10px 14px;
+  font-size: 0.92rem;
+  font-weight: 600;
+  white-space: nowrap;
+  color: var(--gold-soft);
+  border: 1px solid rgba(216, 186, 99, 0.28);
+  background: rgba(8, 34, 19, 0.9);
+  box-shadow: 0 16px 30px rgba(0, 0, 0, 0.3);
+  animation: counter-pop 650ms cubic-bezier(0.22, 1, 0.36, 1) both;
 }
 
 .empty-state {
@@ -546,6 +604,28 @@ button {
 
   to {
     background-position: -200% 0;
+  }
+}
+
+@keyframes counter-pop {
+  0% {
+    opacity: 0;
+    transform: translate(-50%, -40%) scale(0.9);
+  }
+
+  25% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+
+  80% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translate(-50%, -58%) scale(0.97);
   }
 }
 
@@ -596,7 +676,18 @@ button {
     flex-direction: column;
   }
 
-  .counter-value {
+  .counter-actions {
+    display: grid;
+    grid-template-columns: 1fr auto auto;
+    align-items: stretch;
+  }
+
+  .counter-actions__plus {
+    min-height: 56px;
+  }
+
+  .counter-actions__minus {
     margin-left: 0;
+    justify-self: end;
   }
 }

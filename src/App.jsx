@@ -38,6 +38,7 @@ function App() {
     const [activeSlug, setActiveSlug] = useState(readHashSlug());
     const [detailState, setDetailState] = useState({ status: "idle", data: null, error: "" });
     const [progress, setProgress] = useState(loadProgress);
+    const [counterFeedback, setCounterFeedback] = useState(null);
     const deferredQuery = useDeferredValue(query);
 
     useEffect(() => {
@@ -121,6 +122,18 @@ function App() {
         window.localStorage.setItem(STORAGE_KEY, JSON.stringify(progress));
     }, [progress]);
 
+    useEffect(() => {
+        if (!counterFeedback) {
+            return undefined;
+        }
+
+        const timer = window.setTimeout(() => {
+            setCounterFeedback(null);
+        }, 900);
+
+        return () => window.clearTimeout(timer);
+    }, [counterFeedback]);
+
     const filteredCatalog = useMemo(() => {
         const normalizedQuery = deferredQuery.trim().toLowerCase();
 
@@ -160,18 +173,31 @@ function App() {
         setActiveSlug("");
     }
 
-    function updateCounter(counterId, nextValue) {
+    function feedbackLabel(counter, value) {
+        const compactUnit = counter.unit === "kali" || counter.unit === "putaran" ? "x" : ` ${counter.unit}`;
+        return `${counter.label} ${value}${compactUnit}`;
+    }
+
+    function updateCounter(counter, nextValue) {
         if (!detailState.data) {
             return;
         }
+
+        const safeValue = Math.max(0, nextValue);
 
         setProgress((current) => ({
             ...current,
             [detailState.data.slug]: {
                 ...current[detailState.data.slug],
-                [counterId]: Math.max(0, nextValue),
+                [counter.id]: safeValue,
             },
         }));
+
+        setCounterFeedback({
+            counterId: counter.id,
+            message: feedbackLabel(counter, safeValue),
+            stamp: Date.now(),
+        });
     }
 
     return (
@@ -355,6 +381,9 @@ function App() {
 
                                                     {counter.arabic && (
                                                         <div className="counter-dzikir">
+                                                            <span className="counter-sticky-badge" aria-label={`Hitungan ${counter.label}: ${value} dari ${counter.goal}`}>
+                                                                {value}/{counter.goal}
+                                                            </span>
                                                             <p className="counter-dzikir__arabic" lang="ar" dir="rtl">
                                                                 {counter.arabic}
                                                             </p>
@@ -372,13 +401,34 @@ function App() {
                                                     </div>
 
                                                     <div className="counter-actions">
-                                                        <button onClick={() => updateCounter(counter.id, value - counter.step)}>-{counter.step}</button>
-                                                        <button className="counter-value" onClick={() => updateCounter(counter.id, counter.goal)}>
+                                                        <button
+                                                            className="counter-actions__plus"
+                                                            onClick={() => updateCounter(counter, value + counter.step)}
+                                                        >
+                                                            +{counter.step}
+                                                        </button>
+                                                        <button className="counter-value" onClick={() => updateCounter(counter, counter.goal)}>
                                                             Selesaikan
                                                         </button>
-                                                        <button onClick={() => updateCounter(counter.id, value + counter.step)}>+{counter.step}</button>
-                                                        <button onClick={() => updateCounter(counter.id, 0)}>Reset</button>
+                                                        <button onClick={() => updateCounter(counter, 0)}>Reset</button>
+                                                        <button
+                                                            className="counter-actions__minus"
+                                                            onClick={() => updateCounter(counter, value - counter.step)}
+                                                        >
+                                                            -{counter.step}
+                                                        </button>
                                                     </div>
+
+                                                    {counterFeedback?.counterId === counter.id ? (
+                                                        <div
+                                                            key={counterFeedback.stamp}
+                                                            className="counter-feedback"
+                                                            role="status"
+                                                            aria-live="polite"
+                                                        >
+                                                            {counterFeedback.message}
+                                                        </div>
+                                                    ) : null}
                                                 </article>
                                             );
                                         })}
