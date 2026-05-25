@@ -1,0 +1,112 @@
+{
+  "slug": "dzikir-kekayaan",
+  "title": "Dzikir Kekayaan",
+  "category": "Dzikir",
+  "description": "Rangkaian dzikir Asmaul Husna untuk memohon kelapangan rezeki, keberkahan usaha, dan kecukupan hidup. Amalkan dengan adab, keyakinan, dan tawakkal kepada Allah.",
+  "focus": "Asmaul Husna untuk kelapangan rezeki",
+  "recommendedTime": "Setelah sholat fardhu, tahajud, atau sholat hajat sesuai amalan",
+  "steps": [
+    {
+      "title": "Awali dengan niat dan adab yang baik",
+      "body": "Luruskan niat, hadirkan hati, lalu baca dengan khusyuk sambil memperbanyak istighfar dan shalawat."
+    },
+    {
+      "title": "Amalkan sesuai jumlah yang dianjurkan",
+      "body": "Gunakan counter untuk menjaga konsistensi dzikir harian agar target bacaan mudah dipantau."
+    },
+    {
+      "title": "Akhiri dengan doa dan tawakkal",
+      "body": "Mohon rezeki yang halal, berkah, dan bermanfaat, lalu iringi ikhtiar dengan usaha terbaik."
+    }
+  ],
+  "counters": [
+    {
+      "id": "al-wahhaab",
+      "label": "Yaa Wahhaab",
+      "goal": 23,
+      "step": 1,
+      "unit": "kali",
+      "note": "Dibaca 23 kali setiap selesai sholat fardhu, atau 800 kali setelah sholat Hajat dua rakaat.",
+      "arabic": "يَا وَهَّابُ",
+      "transliteration": "Yaa Wahhaab",
+      "meaning": "Wahai Yang Maha Pemberi"
+    },
+    {
+      "id": "ar-razzaaq",
+      "label": "Yaa Razzaaq",
+      "goal": 100,
+      "step": 1,
+      "unit": "kali",
+      "note": "Dibaca setiap hari setelah sholat fardhu sebanyak yang mampu. Target ini bisa disesuaikan dengan kemampuan.",
+      "arabic": "يَا رَزَّاقُ",
+      "transliteration": "Yaa Razzaaq",
+      "meaning": "Wahai Yang Maha Pemberi Rezeki"
+    },
+    {
+      "id": "al-baasith",
+      "label": "Yaa Baasith",
+      "goal": 300,
+      "step": 1,
+      "unit": "kali",
+      "note": "Dibaca 300 kali setelah sholat fardhu atau sholat hajat.",
+      "arabic": "يَا بَاسِطُ",
+      "transliteration": "Yaa Baasith",
+      "meaning": "Wahai Yang Maha Melapangkan Rezeki"
+    },
+    {
+      "id": "al-jaliil",
+      "label": "Yaa Jaliil",
+      "goal": 99,
+      "step": 1,
+      "unit": "kali",
+      "note": "Dibaca 99 kali setiap hari setelah sholat tahajud.",
+      "arabic": "يَا جَلِيلُ",
+      "transliteration": "Yaa Jaliil",
+      "meaning": "Wahai Yang Maha Agung dan Sempurna"
+    },
+    {
+      "id": "al-qoyyuum",
+      "label": "Yaa Qoyyuum",
+      "goal": 80,
+      "step": 1,
+      "unit": "kali",
+      "note": "Dibaca 80 kali setelah sholat fardhu.",
+      "arabic": "يَا قَيُّومُ",
+      "transliteration": "Yaa Qoyyuum",
+      "meaning": "Wahai Yang Maha Berdiri Sendiri"
+    },
+    {
+      "id": "al-akhir",
+      "label": "Yaa Akhiru",
+      "goal": 200,
+      "step": 1,
+      "unit": "kali",
+      "note": "Dibaca 200 kali setelah sholat tahajud.",
+      "arabic": "يَا آخِرُ",
+      "transliteration": "Yaa Akhiru",
+      "meaning": "Wahai Yang Maha Akhir"
+    },
+    {
+      "id": "al-ghaniyy",
+      "label": "Yaa Ghaniyyu",
+      "goal": 400,
+      "step": 1,
+      "unit": "kali",
+      "note": "Dibaca 400 kali setelah sholat fardhu.",
+      "arabic": "يَا غَنِيُّ",
+      "transliteration": "Yaa Ghaniyyu",
+      "meaning": "Wahai Yang Maha Kaya"
+    },
+    {
+      "id": "al-mughniy",
+      "label": "Yaa Mughniy",
+      "goal": 200,
+      "step": 1,
+      "unit": "kali",
+      "note": "Dibaca 200 kali setiap hari setelah sholat fardhu, atau malam hari setelah sholat Hajat.",
+      "arabic": "يَا مُغْنِي",
+      "transliteration": "Yaa Mughniy",
+      "meaning": "Wahai Yang Maha Memberi Kekayaan"
+    }
+  ]
+}

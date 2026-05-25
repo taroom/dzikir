@@ -84,6 +84,17 @@
       "meaning": "Wahai Tuhan pemilik keagungan dan kemuliaan; Wahai Yang Maha Hidup dan Maha Mengurus; dengan rahmat-Mu aku memohon pertolongan; tidak ada Tuhan selain Engkau, Maha Suci Engkau, sungguh aku termasuk orang-orang yang zalim."
     },
     {
+      "id": "dzikir-kelapangan-rezeki",
+      "label": "Yaa Fattaah, Yaa Razzaaq, Yaa Baasith, Yaa Ghaniyyu, Yaa Mughniy",
+      "goal": 100,
+      "step": 1,
+      "unit": "kali",
+      "note": "Dibaca dalam satu baris dzikir, diulang sampai 100 kali.",
+      "arabic": "يَا فَتَّاحُ، يَا رَزَّاقُ، يَا بَاسِطُ، يَا غَنِيُّ، يَا مُغْنِي",
+      "transliteration": "Yaa Fattaah, Yaa Razzaaq, Yaa Baasith, Yaa Ghaniyyu, Yaa Mughniy",
+      "meaning": "Wahai Yang Maha Pembuka, Wahai Yang Maha Pemberi Rezeki, Wahai Yang Maha Melapangkan, Wahai Yang Maha Kaya, Wahai Yang Maha Memberi Kekayaan."
+    },
+    {
       "id": "sholawat-nabi",
       "label": "Sholawat Nabi Muhammad SAW",
       "goal": 10,
