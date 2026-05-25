@@ -52,6 +52,17 @@
       "arabic": "اللَّهُمَّ صَلِّ عَلَى مُحَمَّدٍ وَعَلَى آلِ مُحَمَّدٍ",
       "transliteration": "Allahumma shalli 'ala Muhammadin wa 'ala ali Muhammad",
       "meaning": "Ya Allah, limpahkan shalawat atas Nabi Muhammad dan keluarga beliau"
+    },
+    {
+      "id": "shalawat-nariyah",
+      "label": "Shalawat Nariyah",
+      "goal": 10,
+      "step": 1,
+      "unit": "kali",
+      "note": "Dibaca sebagai penutup ibadah malam. Dikenal pula sebagai Shalawat Tafrijiyah — wasilah terbukanya kesulitan dan terpenuhinya hajat.",
+      "arabic": "اللَّهُمَّ صَلِّ صَلَاةً كَامِلَةً وَسَلِّمْ سَلَامًا تَامًّا عَلَى سَيِّدِنَا مُحَمَّدٍ الَّذِي تَنْحَلُّ بِهِ الْعُقَدُ وَتَنْفَرِجُ بِهِ الْكُرَبُ وَتُقْضَى بِهِ الْحَوَائِجُ وَتُنَالُ بِهِ الرَّغَائِبُ وَحُسْنُ الْخَوَاتِيمِ وَيُسْتَسْقَى الْغَمَامُ بِوَجْهِهِ الْكَرِيمِ وَعَلَى آلِهِ وَصَحْبِهِ فِي كُلِّ لَمْحَةٍ وَنَفَسٍ بِعَدَدِ كُلِّ مَعْلُومٍ لَكَ",
+      "transliteration": "Allahumma sholli sholaatan kaamilatan wa sallim salaaman taamman 'alaa sayyidinaa Muhammadinilladzi tanhallu bihil 'uqadu wa tanfariju bihil kurabu wa tuqdhaa bihil hawaa-iju wa tunaalu bihir raghaa-ibu wa husnul khawaatiimi wa yustasqal ghamaamu biwajhihil kariimi wa 'alaa aalihii wa shahbihii fii kulli lamhatin wa nafasin bi'adadi kulli ma'luumin lak",
+      "meaning": "Ya Allah, limpahkanlah shalawat yang sempurna dan salam yang penuh kepada junjungan kami Nabi Muhammad, yang dengan beliau terurai segala ikatan kesulitan, lenyap segala kesedihan, terpenuhi segala kebutuhan, tercapai segala keinginan dan husnul khatimah, dicurahkan hujan melalui wajahnya yang mulia, serta kepada keluarga dan sahabatnya, pada setiap kedipan mata dan hembusan nafas sebanyak bilangan semua yang Engkau ketahui."
     }
   ]
 }

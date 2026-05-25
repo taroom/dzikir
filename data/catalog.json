@@ -54,5 +54,12 @@
     "category": "Wirid Pagi",
     "tagline": "Waqiah, Ayat Dinar, doa kecukupan, sedekah subuh, dan empat dzikir agung masing-masing 41x.",
     "tags": ["subuh", "pagi", "rezeki", "doa yunus", "wirid harian"]
+  },
+  {
+    "slug": "arafah",
+    "title": "Hari Arafah",
+    "category": "Hari Istimewa",
+    "tagline": "Tahlil kalimat tauhid agung dan Al-Ikhlas masing-masing 1000 kali di hari paling mulia dalam setahun.",
+    "tags": ["arafah", "dzulhijjah", "tahlil", "tauhid", "al-ikhlas"]
   }
 ]

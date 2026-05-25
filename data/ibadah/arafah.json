@@ -1,0 +1,46 @@
+{
+  "slug": "arafah",
+  "title": "Hari Arafah",
+  "category": "Hari Istimewa",
+  "description": "Hari Arafah (9 Dzulhijjah) adalah hari paling mulia dalam setahun. Rasulullah ﷺ bersabda: 'Sebaik-baik doa adalah doa pada hari Arafah, dan sebaik-baik yang aku ucapkan begitu pula para nabi sebelumku adalah: Lailahaillallah wahdahu la syarikalah...' (HR. Tirmidzi). Perbanyak tahlil dan baca Al-Ikhlas untuk meraih keutamaan hari agung ini.",
+  "focus": "Tauhid, dzikir agung, dan keutamaan Hari Arafah",
+  "recommendedTime": "Sepanjang hari tanggal 9 Dzulhijjah",
+  "steps": [
+    {
+      "title": "Niatkan hari ini sebagai hari dzikir",
+      "body": "Hari Arafah adalah hari yang Allah sempurnakan agama Islam. Manfaatkan sepenuhnya dengan dzikir, doa, dan ibadah."
+    },
+    {
+      "title": "Perbanyak tahlil 1000 kali",
+      "body": "Bacalah kalimat tauhid 'Lailahaillallah wahdahu la syarikalah...' sebanyak 1000 kali. Bisa dibagi dalam beberapa sesi sepanjang hari."
+    },
+    {
+      "title": "Baca Al-Ikhlas 1000 kali",
+      "body": "Surah Al-Ikhlas setara sepertiga Al-Qur'an. Membacanya 1000 kali di hari Arafah merupakan amalan yang sangat dianjurkan para ulama."
+    }
+  ],
+  "counters": [
+    {
+      "id": "tahlil-arafah",
+      "label": "Tahlil Arafah",
+      "goal": 1000,
+      "step": 1,
+      "unit": "kali",
+      "note": "Sebaik-baik doa adalah doa hari Arafah dan sebaik-baik yang diucapkan adalah kalimat tauhid ini (HR. Tirmidzi). Bisa dibagi 10 sesi × 100 kali.",
+      "arabic": "لَا إِلَهَ إِلَّا اللَّهُ وَحْدَهُ لَا شَرِيكَ لَهُ، لَهُ الْمُلْكُ وَلَهُ الْحَمْدُ يُحْيِي وَيُمِيتُ، وَهُوَ حَيٌّ لَا يَمُوتُ، بِيَدِهِ الْخَيْرُ، وَهُوَ عَلَى كُلِّ شَيْءٍ قَدِيرٌ",
+      "transliteration": "Laa ilaaha illallaah wahdahu laa syariikalah, lahul mulku walahul hamdu yuhyii wayumiit, wahuwa hayyun laa yamuut, biyadihil khoir, wahuwa 'alaa kulli syai-in qodiir",
+      "meaning": "Tiada Tuhan selain Allah semata, tiada sekutu bagi-Nya. Milik-Nya segala kerajaan dan milik-Nya segala pujian. Dia menghidupkan dan mematikan. Dia Maha Hidup tidak akan mati. Di tangan-Nya segala kebaikan. Dan Dia Maha Kuasa atas segala sesuatu."
+    },
+    {
+      "id": "al-ikhlas-arafah",
+      "label": "Al-Ikhlas",
+      "goal": 1000,
+      "step": 1,
+      "unit": "kali",
+      "note": "Surah Al-Ikhlas senilai sepertiga Al-Qur'an (HR. Bukhari). Dibaca 1000 kali di hari Arafah. Bisa dibagi 10 sesi × 100 kali.",
+      "arabic": "قُلْ هُوَ اللَّهُ أَحَدٌ ﴿١﴾ اللَّهُ الصَّمَدُ ﴿٢﴾ لَمْ يَلِدْ وَلَمْ يُولَدْ ﴿٣﴾ وَلَمْ يَكُن لَّهُ كُفُوًا أَحَدٌ ﴿٤﴾",
+      "transliteration": "Qul huwallahu ahad. Allahush shamad. Lam yalid walam yuulad. Walam yakun lahu kufuwan ahad.",
+      "meaning": "Katakanlah: Dia-lah Allah, Yang Maha Esa. Allah adalah Tuhan yang bergantung kepada-Nya segala sesuatu. Dia tidak beranak dan tidak pula diperanakkan. Dan tidak ada seorang pun yang setara dengan Dia."
+    }
+  ]
+}
